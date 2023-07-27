@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Vivek Dance Website 
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                |VDW 
+            li #[a(href="/") Home]
+            li #[a(href="/about") About] 
+            li #[a(href="/styles") Styles] 
+            li #[a(href="/reviews") Reviews]
+            li #[a(href="/contact") Contact Us]
+
+    block content
+    section#footer
+        h3 Copyright © 2023 VivekDanceWebsite.com | All rights reserved

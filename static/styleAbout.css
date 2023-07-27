@@ -1,0 +1,49 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap"); */
+* {
+  background-color: black;
+}
+.container {
+  text-align: center;
+  min-height: 80vh;
+  width: 800px;
+  margin-top: 25px;
+  margin-left: 350px;
+  /* background-color: yellow; */
+  color: white;
+  /* border: 1px solid white; */
+}
+
+.container h1 {
+  text-align: center;
+  margin: 12px 0px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+.container h2 {
+  text-align: right;
+  margin-right: 60px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.box {
+  display: flex;
+  font-size: 21px;
+  flex-direction: row;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+.box img {
+  width: 400px;
+  height: 270px;
+  border-radius: 10px;
+  margin: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

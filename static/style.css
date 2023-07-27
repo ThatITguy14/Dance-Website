@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap'); */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Fasthand";
+  /* background-color: black; */
+}
+#navbar {
+  background-color: black;
+  padding: 13px 14px;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  /* font-size: 1rem; */
+  font-size: 20px;
+  color: white;
+}
+#navbar li a:hover {
+  color: red;
+}
+#IntroSection {
+  background: center / cover no-repeat url(/static/bg.jpg);
+  height: 600px;
+  /* background-color: red; */
+  color: white;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+  border: 2px solid white;
+  /* background-color: black; */
+}
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0px 14px;
+  font-size: 20px;
+}
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+#IntroSection #name {
+  font-size: 80px;
+  background: none;
+}
+#small {
+  font-size: 20px;
+  font-family: "Delicious Handrawn", cursive;
+  font-weight: bolder;
+  background: none;
+}
+#SponsorsSection {
+  height: 270px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+#SponsorsSection h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+#SponsorsSection h2:hover {
+  color: red;
+}
+#MissionSection {
+  height: 320px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  /* padding-bottom: 20px; */
+  /* border:2px solid white; */
+  /* border-top: none; */
+}
+#MissionSection h2 {
+  color: white;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  font-size: 50px;
+  background-color: black;
+}
+#MissionSection h2:hover {
+  color: red;
+}
+.card {
+  width: 25%;
+  height: 209px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.card h3 {
+  justify-content: center;
+  text-align: center;
+  margin: 12px;
+  font-size: 20px;
+}
+/* .card h3:hover{
+    color: red;
+} */
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 131px;
+  /* padding: 0px 14px; */
+  filter: invert(1);
+}
+.card-img img {
+  height: inherit;
+  margin-left: 5px;
+}
+.card-content {
+  margin-right: 40px;
+}
+.card-content p {
+  font-size: 20px;
+  /* color: red; */
+}
+/* .card-content p:hover{
+    color: red;
+} */
+
+#sponsors {
+  height: 120px;
+  max-width: 1000px;
+  margin: auto;
+  /* border: 2px solid white; */
+}
+.spImage {
+  height: 80%;
+  margin: 20px;
+  margin-top: none;
+  margin-bottom: none;
+}
+/* .card #a{
+    color: greenyellow;
+}
+.card #b{
+    color: yellow;
+}
+.card #c{
+    color: rgb(0, 255, 225);
+} */
+#footer {
+  height: 60px;
+  background-color: black;
+}
+#footer h3 {
+  padding-top: 16px;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Delicious Handrawn", cursive;
+}

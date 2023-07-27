@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/styleStyle.css
+
+block content 
+    h1 Learn a variety of Dance Styles
+    div.container
+        div.box 
+            h3#a Dance Workout  
+            img(src="/static/img/danceworkout.jpg" ) 
+        div.box
+            h3#a Salsa
+            img(src="/static/img/salsa.jpg" ) 
+    div.container        
+        div.box
+            h3#a Jazz
+            img(src="/static/img/jazz.jpg" ) 
+        div.box 
+            h3#a Hip Hop  
+            img(src="/static/img/hiphop.jpg" )
+        
+        

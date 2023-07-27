@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/styleReviews.css
+
+block content 
+    h1 Client Reviews
+    div.container
+        div.box 
+            div.smallbox
+                div.smallsmallbox
+                    h3 Name: Jennifer
+                    h3 Rating: 5 stars
+                    |This dance class exceeded all my expectations! The instructor was not only incredibly talented but also patient and encouraging. They created a positive and inclusive atmosphere where everyone felt comfortable expressing themselves through dance. The choreography was creative and engaging, challenging us to push our boundaries and improve our skills. I left each class feeling energized and inspired. I highly recommend this dance class to anyone looking for a fun and supportive learning environment. 
+            div.smallbox
+                img(src="/static/img/jennifer.jpg" ) 
+        div.box
+            div.smallbox
+                div.smallsmallbox
+                    h3 Name: Mike
+                    h3 Rating: 4.5 stars
+                    |I absolutely loved this dance class! The instructor was phenomenal, bringing a perfect blend of technical expertise and creativity. They had a knack for breaking down complex moves into manageable steps, making it easy for beginners like me to follow along. The class had a fantastic energy, with fellow participants who were friendly and supportive. I learned so much and gained confidence in my dancing abilities. If you're looking for a class that's both fun and instructional, this is the one!
+            div.smallbox
+                img(src="/static/img/mike.jpg" ) 
+    div.container  
+        div.box2
+            div.smallbox2
+                div.smallsmallbox
+                    h3 name: Lily
+                    h3 Rating: 5 stars
+                    |Joining this dance class was one of the best decisions I've made! The instructor's passion for dance was contagious, and their enthusiasm made every session a joy to attend. They provided constructive feedback and personalized attention, ensuring that each student received guidance tailored to their skill level. The choreography was diverse and exciting, allowing us to explore different dance styles and techniques. The positive and uplifting atmosphere of the class made me look forward to every lesson. I highly recommend this dance class to anyone seeking a transformative dance experience.   
+            div.smallbox2
+                img(src="/static/img/lily.jpg" ) 
+        div.box2
+            div.smallbox2
+                div.smallsmallbox
+                    h3 Name: John
+                    h3 Rating: 4 stars
+                    |I had a fantastic time in this dance class! The instructor was not only a skilled dancer but also an excellent teacher. They had a natural ability to explain movements and concepts clearly, making it easy for us to understand and execute the choreography. The class had a great balance of structure and creativity, giving us room to showcase our individuality while maintaining a strong foundation in technique. I appreciated the supportive and friendly environment, where everyone cheered each other on. If you're looking for a dance class that's both challenging and enjoyable, this is it!
+            div.smallbox2
+                img(src="/static/img/john.jpg" )
+        
+        

@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    title Vivek's Dance Website
+    style 
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                |VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Styles] 
+            li #[a(href="/") Reviews]
+            li #[a(href="/") Contact Us] 
+    section#IntroSection 
+        div#name Welcome to Vivek's Dance Website   
+        div#small EAT SLEEP DANCE REPEAT    
+    section#MissionSection
+        h2 Our Mission     
+        div.card
+            h3#a Start With The Basics
+            div.card-box  
+                div.card-img  
+                    img(src="/static/img/image1.jpg")  
+                div.card-content     
+                    p#l This is the best dance website of the Universe
+        div.card
+            h3#b Reach Your Dance Goals 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/image3.tiff") 
+                div.card-content     
+                    p This is the best dance website of the Universe
+        div.card
+            h3#c Dance Like  a Pro  
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/image2.png")  
+                div.card-content     
+                    p#n This is the best dance website of the Universe
+    section#SponsorsSection
+        h2 Our Sponsors      
+        div#sponsors 
+            img(src="/static/img/RedBull.png" , class="spImage") 
+            img(src="/static/img/MtnDew.png" , class="spImage") 
+            img(src="/static/img/BananaBoat.png" , class="spImage") 
+            img(src="/static/img/Vans.png" , class="spImage") 
+    section#footer
+        | Copyright © 2023 VivekDanceWebsite.com | All rights reserved
+    script
+      include ../static/index.js

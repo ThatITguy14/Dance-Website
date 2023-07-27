@@ -1,0 +1,18 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/styleAbout.css
+
+block content 
+   div.container  
+    h1 About Us
+    div.box
+        | Welcome to our vibrant dance community! We are a dedicated dance website, celebrating the art form that unites people and transcends boundaries. Discover captivating articles, interviews, and tutorials that inspire and educate. From classical ballet to contemporary styles, we showcase the diversity and beauty of dance. Join our community, share your passion, and connect with fellow dancers and enthusiasts. Let's embark on this extraordinary journey together!
+        img(src="/static/img/aboutimage.jpeg" ) 
+    h2 Vivek Wagh    
+        

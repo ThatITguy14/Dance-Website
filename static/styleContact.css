@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap'); */
+* {
+  background-color: black;
+}
+.container {
+  min-height: 77vh;
+  margin-top: 25px;
+  /* background-color: black; */
+}
+.container h1 {
+  text-align: center;
+  margin: 12px 0px;
+  font-size: 34px;
+  color: white;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.myInput {
+  /* displsay: block; */
+  width: 40%;
+  padding: 9px;
+  margin: 8px;
+  font-size: 16px;
+  /* border: 2px solid black; */
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Delicious Handrawn", cursive;
+  font-weight: bolder;
+}
+::placeholder {
+  color: white;
+  font-family: "Fasthand";
+  font-weight: bolder;
+  /* opacity: 1;  */
+}
+
+.btn {
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  outline: none;
+  margin-top: 12px;
+}
